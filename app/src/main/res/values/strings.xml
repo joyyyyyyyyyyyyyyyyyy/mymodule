@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">mymodule</string>
-    <string name="mod">My Modules</string>
-    <string name="c203">C203:\nWeb Appln Development in PHP</string>
-    <string name="c206">C206:\nSoftware Development Process</string>
-    <string name="c218">C218:\nUI/UX Design for Apps</string>
-    <string name="c235">C235:\nIT Security &amp; Management</string>
-    <string name="c346">C346:\nMobile App Development</string>
+    <string name="mod">- My Modules -</string>
+    <string name="c203">C203\nWeb Appln Development in PHP</string>
+    <string name="c206">C206\nSoftware Development Process</string>
+    <string name="c218">C218\nUI/UX Design for Apps</string>
+    <string name="c235">C235\nIT Security &amp; Management</string>
+    <string name="c346">C346\nMobile App Development</string>
 </resources>
