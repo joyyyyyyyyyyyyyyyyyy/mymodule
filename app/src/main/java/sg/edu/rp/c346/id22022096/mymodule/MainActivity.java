@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
 
         imageSDC.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, moduledisplay.class);
-            intent.putExtra("ModuleCode","C203");
-            intent.putExtra("ModuleName","Web Appln Development in PHP");
+            intent.putExtra("ModuleCode","C206");
+            intent.putExtra("ModuleName","Software Development Process");
             intent.putExtra("AcademicYear","2023");
             intent.putExtra("Semester",1);
             intent.putExtra("ModuleCredit",4);
@@ -93,8 +93,8 @@ public class MainActivity extends AppCompatActivity {
 
         imageUIUX.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, moduledisplay.class);
-            intent.putExtra("ModuleCode","C203");
-            intent.putExtra("ModuleName","Web Appln Development in PHP");
+            intent.putExtra("ModuleCode","C218");
+            intent.putExtra("ModuleName","UI/UX Design for Apps");
             intent.putExtra("AcademicYear","2023");
             intent.putExtra("Semester",1);
             intent.putExtra("ModuleCredit",4);
@@ -115,8 +115,8 @@ public class MainActivity extends AppCompatActivity {
 
         imageHack.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, moduledisplay.class);
-            intent.putExtra("ModuleCode","C203");
-            intent.putExtra("ModuleName","Web Appln Development in PHP");
+            intent.putExtra("ModuleCode","C235");
+            intent.putExtra("ModuleName","IT Security & Management");
             intent.putExtra("AcademicYear","2023");
             intent.putExtra("Semester",1);
             intent.putExtra("ModuleCredit",4);
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
 
         c346.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, moduledisplay.class);
-            intent.putExtra("ModuleCode","C235");
+            intent.putExtra("ModuleCode","C346");
             intent.putExtra("ModuleName","Mobile App Development");
             intent.putExtra("AcademicYear","2023");
             intent.putExtra("Semester",1);
@@ -137,12 +137,12 @@ public class MainActivity extends AppCompatActivity {
 
         imageAndroid.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, moduledisplay.class);
-            intent.putExtra("ModuleCode","C203");
-            intent.putExtra("ModuleName","Web Appln Development in PHP");
+            intent.putExtra("ModuleCode","C346");
+            intent.putExtra("ModuleName","Mobile App Development");
             intent.putExtra("AcademicYear","2023");
             intent.putExtra("Semester",1);
             intent.putExtra("ModuleCredit",4);
-            intent.putExtra("Venue","W65C");
+            intent.putExtra("Venue","E63A");
             startActivity(intent);
         });
 
