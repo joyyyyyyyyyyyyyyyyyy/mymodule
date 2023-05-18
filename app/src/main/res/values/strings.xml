@@ -6,4 +6,7 @@
     <string name="c218">C218\nUI/UX Design for Apps</string>
     <string name="c235">C235\nIT Security &amp; Management</string>
     <string name="c346">C346\nMobile App Development</string>
+    <string name="modinfo">- Module Info -</string>
+    <string name="back">Return To Home Page</string>
+
 </resources>

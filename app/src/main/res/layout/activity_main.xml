@@ -13,7 +13,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:ignore="SpeakableTextPresentCheck">
+        tools:ignore="SpeakableTextPresentCheck,UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -58,7 +58,9 @@
                     android:layout_margin="10dp"
                     android:layout_marginTop="15dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/php_removebg_preview" />
+                    app:srcCompat="@drawable/php_removebg_preview"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
             </LinearLayout>
 
             <LinearLayout
@@ -73,21 +75,23 @@
                     android:layout_margin="10dp"
                     android:layout_marginTop="15dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/software_development_process_models_removebg_preview" />
+                    app:srcCompat="@drawable/software_development_process_models_removebg_preview"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:id="@+id/c206"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
+                    android:layout_weight="1"
                     android:fontFamily="@font/anton"
                     android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:text="@string/c206"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:padding="10dp"
-                    android:layout_weight="1"
-                    android:text="@string/c206"/>
+                    tools:ignore="TextSizeCheck" />
             </LinearLayout>
 
             <LinearLayout
@@ -110,13 +114,15 @@
                     android:text="@string/c218" />
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/imageUIUX"
                     android:layout_width="0dp"
                     android:layout_height="150dp"
                     android:layout_margin="10dp"
                     android:layout_marginTop="15dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/uiux_removebg_preview"
+                    tools:ignore="ContentDescription" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -131,7 +137,8 @@
                     android:layout_margin="10dp"
                     android:layout_marginTop="15dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/binary" />
+                    app:srcCompat="@drawable/binary"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:id="@+id/c235"
@@ -174,7 +181,8 @@
                     android:layout_margin="10dp"
                     android:layout_marginTop="15dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/android" />
+                    app:srcCompat="@drawable/android"
+                    tools:ignore="ContentDescription" />
             </LinearLayout>
 
 
